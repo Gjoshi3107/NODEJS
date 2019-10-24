@@ -1,6 +1,29 @@
 # NODEJS
 First Node JS Tutorial
 
+# FILE READING SEQUENCE
+1. app.js
+2. multifunction.js
+3. multiEvents.js
+4. fileNfolder.js
+5. bufferNstreaming.js
+6. server.js
+7. MultiDataResponse.js
+
+# MultiDataResponse.js
+The files likes 
+1. home.html
+2. contact.html
+3. failure.html
+4. contactJSON.json
+are part of MultiDataResponse.js
+
+# bufferNstreaming.js
+The other file likes 
+1. readMeForStreaming.txt
+2. writeMeWhileStreaming.txt
+3. pipedFile.txt
+are part of bufferNstreaming.js
 
 ## Licence
 The MIT License (MIT)
