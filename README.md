@@ -16,6 +16,7 @@ The files likes
 2. contact.html
 3. failure.html
 4. contactJSON.json
+
 are part of MultiDataResponse.js
 
 # bufferNstreaming.js
@@ -23,6 +24,7 @@ The other file likes
 1. readMeForStreaming.txt
 2. writeMeWhileStreaming.txt
 3. pipedFile.txt
+
 are part of bufferNstreaming.js
 
 ## Licence
