@@ -3,13 +3,13 @@ var fs = require('fs');
 var path = require('path');
 var url = require('url');
 
-var FAVICON = path.join(__dirname, "", 'favicon.ico');
+var FAVICON = path.join(__dirname, "", 'favicon.ico');                 // new path created.
 // var port = 3000;
 // var serverIP = "127.0.0.1";
 var server = http.createServer(function (req, res) {
     console.log("request is :----> ", req.url);
 
-    var pathname = url.parse(req.url).pathname;
+    var pathname = url.parse(req.url).pathname;                    // request url path is saved
     if (req.method === 'GET' && pathname === '/favicon.ico') {
         // MIME type of your favicon.
 
@@ -18,8 +18,8 @@ var server = http.createServer(function (req, res) {
         // .jpg = 'image/jpeg'
         // .jpeg = 'image/jpeg'
 
-        res.setHeader('Content-Type', 'image/x-icon');
-        fs.createReadStream(FAVICON).pipe(res);
+        res.setHeader('Content-Type', 'image/x-icon');              // for JSON:- application/json; html:- text/html
+        fs.createReadStream(FAVICON).pipe(res);                   // a readStream is created and the output is piped to a writeStream.
 
         return;
     }

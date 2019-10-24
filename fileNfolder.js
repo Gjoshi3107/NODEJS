@@ -9,7 +9,7 @@ var fs = require('fs');
     // var i = 0;
     // while (i < 5) {
     //     console.log("qwertyuiop[");
-    //     var data = fs.readFileSync("./writeMeForStreaming.txt");
+    //     var data = fs.readFileSync("./readMeForStreaming.txt");
     //     fs.writeFileSync('./writeME3.txt', data+"\n"+data);
     //     i=i+1;
     // }
